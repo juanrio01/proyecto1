@@ -1,0 +1,56 @@
+nav {
+    background-color: rgb(44, 138, 1);
+}
+h1{
+    text-align: center;
+    color: rgb(44, 138, 1);
+    font-family: fantasy; 
+}
+h2{
+    text-align: center;
+    color: rgb(44, 138, 1);
+    font-family: fantasy; 
+}
+h3{
+    text-align: center;
+    color: rgb(44, 138, 1);
+    font-family: fantasy; 
+}
+.div-contenedor {
+    color: rgb(000,000,000);
+    border: 1px solid rgb(44, 138, 1);
+}
+
+/* .destacado {
+    color: red;
+} */
+/* 
+h2.destacado {
+    color: orange;
+}
+
+p.destacado {
+    color: violet;
+}
+
+div p {
+    color: blue;
+}
+
+div ul li p {
+    color: green;
+} */
+
+div > p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+    
+/* 
+div + p {
+    color: blueviolet;
+} */
+
+div ~ p {
+    color:  rgb(255, 255, 255);
+}
